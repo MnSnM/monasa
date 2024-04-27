@@ -16,6 +16,10 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100vh; /* Make the container take up the full viewport height */
         }
         h1 {
             color: #333;
@@ -37,14 +41,13 @@
 <body>
     <div class="container">
         <!-- Welcome message, placeholder image, and links -->
-
-        <!-- Contact details -->
-        <div class="contact-details">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:nzr101@gmail.com">nzr101@gmail.com</a></p>
-            <p>Phone: +27 731762861</p>
-        </div>
-        <a href="index.html" class="btn btn-primary">Home</a>
     </div>
+    <!-- Contact details -->
+    <div class="contact-details">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nzr101@gmail.com">nzr101@gmail.com</a></p>
+        <p>Phone: +27 731762861</p>
+    </div>
+    <a href="index.html" class="btn btn-primary">Home</a>
 </body>
 </html>
